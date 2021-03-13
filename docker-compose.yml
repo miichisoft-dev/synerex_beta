@@ -10,6 +10,8 @@ services:
     environment:
       - SX_SERVER_HOST=server
       - SX_NODESERV_HOST=nodeserv
+      - SX_PUBLIC_KEY=8AAC2286D4448FAD779F147357BFF
+      - SX_PRIVATE_KEY=61268C659CAADC95C8DFB41399C12
     depends_on:
       - "nodeserv"
     volumes:
